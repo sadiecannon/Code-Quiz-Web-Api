@@ -1,0 +1,178 @@
+body {
+    padding: .5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+
+#content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    width: 500px;
+    height: 700px;
+}
+
+
+#questionsContainer {
+    text-align: center;
+}
+
+#questionsContainer ul li {
+    border: 2px solid black;
+    border-radius: 30px 30px;
+    line-height: 150%;
+    margin: 3%;
+    cursor: pointer;
+}
+
+#questionsContainer ul :hover {
+    list-style-type: none;
+    background-color: purple;
+    color: grey;
+}
+
+#timeLeft {
+    float: right;
+}
+
+#retake {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: purple;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    left: 5%;
+    width: auto;
+    border: 2px solid black;
+}
+
+#highScore {
+    border: none;
+}
+
+#clear {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: purple;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    right: 5%;
+    border: 2px solid black;
+}
+
+button {
+    border-radius: 40px 40px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    margin: 30px;
+}
+
+#Submit {
+    background-color: purple;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid rgb(222, 108, 193);
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    margin-bottom: 30px;
+    width: 60%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+li {
+    background-color: purple;
+    margin-top: 40px;
+    padding: 20px 30px;
+    width: 80%;
+    font-size: 20px;
+    color: white;
+}
+
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+}
+
+#timer {
+    background-color: purple;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid black;
+
+
+
+
+/* Media Queries*/
+
+@media screen and (max-width: 375px) {
+    #wrapper {
+        padding-top: 50%;
+    }
+    #questionsDiv {
+        margin-right: 13%;
+        font-size: 150%;
+    }
+    #currentTime {
+        margin-right: 75%;
+    }
+    #goBack {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 768px;
+    }
+    #wrapper {
+        position: absolute;
+        left: 17%;
+    }
+    #goBack {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #clear {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
